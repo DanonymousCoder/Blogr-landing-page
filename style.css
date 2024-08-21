@@ -139,3 +139,34 @@ button {
     opacity: 1;
     z-index: 1;
 }
+
+.editor-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+    gap: 3em;
+}
+
+.editor h3 {
+    color: hsl(237, 17%, 21%);
+    font-size: 30px;
+}
+
+.editor h5 {
+    color: hsl(237, 17%, 21%);
+    font-size: 20px;
+}
+
+.editor .col {
+    display: flex;
+}
